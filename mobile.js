@@ -10,7 +10,7 @@ body {
 .motivation,
 .blog-news,
 footer {
-    width: 100%;
+    width: 100px;
     padding: 10px;
 }
 header nav{

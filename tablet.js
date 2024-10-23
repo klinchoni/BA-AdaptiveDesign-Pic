@@ -10,7 +10,7 @@ body {
 .motivation,
 .blog-news,
 footer {
-    width: 90%;
+    width: 90px;
     padding: 20px;
 }
 .blog-news ul{
