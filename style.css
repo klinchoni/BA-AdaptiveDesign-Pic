@@ -179,6 +179,27 @@ h3 {
     color: #0073e6;  /* Blue text for active row */
 }
 
+.our-team {
+    background: rgb(231, 242, 245);
+}
+
+.our-team ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.our-team ul li img {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 0.3rem;
+}
+
+.our-team ul li > p:nth-child(2) {
+    padding: 0;
+}
+
 .motivation {
     padding: 2.5rem 0;
 }
@@ -205,27 +226,6 @@ h3 {
 .motivation li img {
     width: 8rem;
     height: 8rem;
-}
-
-.our-team {
-    background: rgb(231, 242, 245);
-}
-
-.our-team ul {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.our-team ul li img {
-    width: 250px;
-    height: 250px;
-    padding-bottom: 0.3rem;
-}
-
-.our-team ul li > p:nth-child(2) {
-    padding: 0;
 }
 
 .motivation li {

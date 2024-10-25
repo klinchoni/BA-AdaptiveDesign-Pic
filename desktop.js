@@ -21,12 +21,15 @@ footer {
     box-shadow: 0 0.3rem 1rem 0.3rem rgba(0, 0, 0, 0.3);
     width: 50%;
 }
+
 .img img {
     max-width: 100%;
     height: auto;
 }
 `;
 
+
 const styleSheet = document.createElement("style");
 styleSheet.innerText = desktopStyles;
 document.head.appendChild(styleSheet);
+
